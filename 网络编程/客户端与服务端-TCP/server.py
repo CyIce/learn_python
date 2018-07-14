@@ -15,7 +15,7 @@ server.listen(5)
 print("服务器启动成功")
 
 client_socket, client_address = server.accept()
-print("连接成功")
+print("连接成功" )
 
 while True:
     data = client_socket.recv(1024)
