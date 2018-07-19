@@ -24,6 +24,8 @@ time.sleep(10)
 # 暂停
 pygame.mixer.music.pause()
 
+
+
 pygame.mixer.music.play()
 # 停止
 pygame.mixer.stop()
